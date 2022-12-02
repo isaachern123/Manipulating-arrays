@@ -49,12 +49,7 @@
 
 
 
-
-
-
-
-
-
+//MORE DOWN HERE
 
 
 
@@ -72,7 +67,9 @@
      * console.log planetsArray to check your work
      */
 
-    // console.log(planetsArray);
+
+                 planetsArray = planetsString.split('|');
+                 console.log(planetsArray);
 
     /**
      * TODO:
@@ -85,6 +82,9 @@
      * string, and <li> tags around each planet.
      */
 
+
+                var stringPlanets = "Mercury<br>Venus<br>Earth<br>Mars<br>Jupiter<br>Saturn<br>Uranus<br>Neptune";
+                console.log(stringPlanets)
 })();
 
 
