@@ -85,6 +85,7 @@
 
                 var stringPlanets = "Mercury<br>Venus<br>Earth<br>Mars<br>Jupiter<br>Saturn<br>Uranus<br>Neptune";
                 console.log(stringPlanets)
+                document.write(stringPlanets);
 })();
 
 
